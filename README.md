@@ -50,7 +50,7 @@
         io_loop.start()
         ```
         
- ##性能
+ ## 性能
  
  &nbsp;&nbsp;&nbsp;&nbsp;
  为了尽量提高性能，本项目在原 [ip2region](https://github.com/lionsoul2014/ip2region) 项目的基础上仅仅保留了内存搜索方法。实际测试比原方法提升一倍以上性能。
