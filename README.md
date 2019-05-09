@@ -46,6 +46,7 @@
         from tornado.ioloop import IOLoop
  
         util = IP2RegionUtil()
+        io_loop = IOLoop.instance()
         print(util.search('8.8.8.8'))
         io_loop.start()
         ```
